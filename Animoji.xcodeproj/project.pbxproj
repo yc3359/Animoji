@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		2ED76CD82553824E00BA25CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED76CD72553824E00BA25CA /* AppDelegate.swift */; };
 		2ED76CDA2553824E00BA25CA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED76CD92553824E00BA25CA /* ViewController.swift */; };
-		2ED76CDC2553824E00BA25CA /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 2ED76CDB2553824E00BA25CA /* Experience.rcproject */; };
+		2ED76CDC2553824E00BA25CA /* DuckExperience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 2ED76CDB2553824E00BA25CA /* DuckExperience.rcproject */; };
 		2ED76CDF2553824E00BA25CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2ED76CDD2553824E00BA25CA /* Main.storyboard */; };
 		2ED76CE12553825000BA25CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2ED76CE02553825000BA25CA /* Assets.xcassets */; };
 		2ED76CE42553825000BA25CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2ED76CE22553825000BA25CA /* LaunchScreen.storyboard */; };
@@ -19,7 +19,7 @@
 		2ED76CD42553824E00BA25CA /* Animoji.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Animoji.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2ED76CD72553824E00BA25CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2ED76CD92553824E00BA25CA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		2ED76CDB2553824E00BA25CA /* Experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Experience.rcproject; sourceTree = "<group>"; };
+		2ED76CDB2553824E00BA25CA /* DuckExperience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = DuckExperience.rcproject; sourceTree = "<group>"; };
 		2ED76CDE2553824E00BA25CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2ED76CE02553825000BA25CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2ED76CE32553825000BA25CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -58,7 +58,7 @@
 			children = (
 				2ED76CD72553824E00BA25CA /* AppDelegate.swift */,
 				2ED76CD92553824E00BA25CA /* ViewController.swift */,
-				2ED76CDB2553824E00BA25CA /* Experience.rcproject */,
+				2ED76CDB2553824E00BA25CA /* DuckExperience.rcproject */,
 				2ED76CDD2553824E00BA25CA /* Main.storyboard */,
 				2ED76CE02553825000BA25CA /* Assets.xcassets */,
 				2ED76CE22553825000BA25CA /* LaunchScreen.storyboard */,
@@ -139,7 +139,7 @@
 			files = (
 				2ED76CDA2553824E00BA25CA /* ViewController.swift in Sources */,
 				2ED76CD82553824E00BA25CA /* AppDelegate.swift in Sources */,
-				2ED76CDC2553824E00BA25CA /* Experience.rcproject in Sources */,
+				2ED76CDC2553824E00BA25CA /* DuckExperience.rcproject in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +289,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PP7PPHDHG2;
 				INFOPLIST_FILE = Animoji/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -308,6 +309,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PP7PPHDHG2;
 				INFOPLIST_FILE = Animoji/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
